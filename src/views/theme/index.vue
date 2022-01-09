@@ -117,6 +117,7 @@ export default class extends Vue {
   @Watch('theme')
   private onThemeChange() {
     toggleClass(document.body, 'custom-theme')
+    // 测试一下git
   }
 }
 </script>
